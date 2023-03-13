@@ -1,0 +1,121 @@
+body{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align:center;
+  font-size: medium;
+}
+header{
+  background-color: rgb(61, 114, 84);
+  font-family:'Times New Roman', Times, serif;
+  font-size: large;
+  font-style: inherit;
+  padding: 20px;
+  text-align: center;
+  margin-top: -10px;
+}
+nav{
+  font-size: small;
+  background-color: rgb(129, 165, 126);
+}
+ul{
+  list-style-type: none;
+  padding: 0;
+  overflow: hidden;
+  margin: 0;
+}
+li{
+  margin: 5px;
+  float: left;
+}
+li a {
+  padding: 10px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  margin: 1px;
+  display: block;
+  background-color: #093c26bb;
+  border-radius: 8px;
+}
+
+main{
+  grid-template-columns: 29% auto;
+  margin-top: 9px;
+  display: grid;
+  margin-bottom: 9px;
+  gap: 20px;
+}
+#i1{
+  width: 100%;
+}
+img{
+  width: 200px;
+}
+.columna-izquierda{
+  height: 40%;
+  position: relative;
+  overflow:scroll ;
+}
+.resumen-sitio{
+  position: absolute;
+  background-color: #9ef18eb2;
+  margin: 20px;
+  padding: 5px;
+  align-content: center;
+}
+div.columna-izquierda, div.columna-derecha{
+  background-color:  rgb(61, 114, 84);
+}
+.apartado1, .apartado2, .apartado3{
+  background-color:  #9ef18eb2;
+  margin: 24px;
+  padding: 9px;
+}
+.i1, .i3{
+  float: left;
+  margin-right: 5px;
+}
+.i2{
+  float: right;
+  margin-left: 8px;
+  margin-top: -25px;
+}
+footer{
+  background-color:  rgb(61, 114, 84);
+  font-family:'Times New Roman', Times, serif;
+  font-size: smaller;
+  font-style: inherit;
+  text-align: center;
+  padding: 5px;
+  margin-bottom: -10px;
+}
+
+@media (max-width:700px){
+
+  main{
+      grid-template-columns: auto;
+      display: grid;
+      gap: 2px;
+      padding: 10px;
+  }
+  li{
+      margin: 10px;
+      float: none;
+  }
+  div.columna-izquierda, div.columna-derecha{
+      background-color: rgb(5, 60, 29);
+  }
+  .columna-izquierda{
+      height: 470px;
+      overflow: auto;
+  }
+  .resumen-sitio{
+      margin: 0px;
+  }
+  .apartado1, .apartado2, .apartado3{
+      margin: 10px;
+      padding: 30px;
+  }
+  img{
+      width: 300px;
+  }
+
+}

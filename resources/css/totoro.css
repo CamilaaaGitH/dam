@@ -1,0 +1,113 @@
+body{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align:center;
+    font-size: medium;
+  }
+  header{
+    background-color: rgb(61, 114, 84);
+    font-family:'Times New Roman', Times, serif;
+    font-size: large;
+    font-style: inherit;
+    padding: 20px;
+    text-align: center;
+    margin-top: -10px;
+  }
+  nav{
+    font-size: small;
+    background-color: rgb(129, 165, 126);
+  }
+  ul{
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    margin: 0;
+  }
+  li{
+    margin: 5px;
+    float: left;
+  }
+  li a {
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin: 1px;
+    display: block;
+    background-color: #093c26bb;
+    border-radius: 8px;
+  }
+
+  main{
+    margin-top: 9px;
+    margin-bottom: 9px;
+    position: relative;
+}
+#imag1{
+    width: 80%;
+}
+.imagen1{
+    text-align: center;
+    height: 20%;
+}
+.cuerpo{
+    height: 1500px;
+    width:auto;
+    position: absolute;
+    position: relative;
+    margin: 15px;
+    overflow: auto;
+}
+.contenido{
+    position: absolute;
+    background-color: #9ef18eb2;
+    margin: 50px;
+    padding: 9px;
+    align-content: center;
+}
+div.cuerpo{
+     background-color: rgb(61, 114, 84);
+}
+.img{
+    width: 60%;
+}
+footer{
+    background-color: rgb(61, 114, 84);
+    font-family:'Times New Roman', Times, serif;
+    font-size: smaller;
+    font-style: inherit;
+    text-align: center;
+    padding: 5px;
+    margin-bottom: -10px;
+}
+
+@media (max-width:700px){
+    body{
+        font-size: small;
+        text-align: justify;
+    }
+    main{
+        grid-template-columns: auto;
+        display: grid;
+        gap: 2px;
+        padding: 0px;
+        margin: 0px;
+    }
+    #menu li{
+        margin: 10px;
+        float: none;
+    }
+    #i1{
+        width:100%;
+    }
+
+    .cuerpo{
+        height: 1300px;
+        overflow: auto;
+        margin: 8px;
+    }
+    .contenido{
+    margin: 10px;
+    }
+    .imagen1{
+    width: 80%;
+    }
+}
